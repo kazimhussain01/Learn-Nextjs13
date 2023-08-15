@@ -17,8 +17,8 @@ const femaleCategory = ()=> {
                     return(
                         <div key={index} className="p-2 bg-slate-400">
                             <Link href={`/products/${item.slug}`}>
-                            <div className="relative overflow-hidden w-48 h-45">
-                            <Image className="w-full h-full transition-transform duration-700 cubic-bezier transform hover:scale-110" 
+                            <div className="w-48 h-45">
+                            <Image className="transition-transform duration-700 cubic-bezier transform hover:scale-110" 
                             src={item.Image} 
                             alt={item.name} 
                             width={200} 
